@@ -14,3 +14,4 @@ release-files/
 ├── index.html  
 └── main.js        
 ```
+You can download the calculator in "Releases"  
