@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Alexandria", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 90vh;
+    background-color: #091921;
+}
+
+.calculator{
+    position: relative;
+    display: grid;
+}
+
+.calculator > .value {
+    grid-column: span 4;
+    height: 100px;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+.calculator > span {
+    display: grid;
+    width: 60px;
+    height: 60px;
+    color: white;
+    background-color: #92BB5D;
+    place-items: center;
+    border: 1px solid rgba(40, 52, 24, 0.25);
+    cursor: pointer;
+    border-radius: 25px;
+    margin: 2px;
+}
+
+.calculator > span:active {
+    background-color: #EAFB77;
+    color: black;
+}
+
+.calculator > .clear {
+    grid-column: span 2;
+    width: 120px;
+    background-color: #ff3077;
+}
+
+
+
+.calculator > .equal{
+    background-color: #03b1ff;
+}
