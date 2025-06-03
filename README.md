@@ -14,4 +14,4 @@ release-files/
 ├── index.html  
 └── main.js        
 ```
-You can download the calculator in "Releases"  
+You can download the calculator in [Releases](https://github.com/Lubimyjovos13/electron-calculator/releases)  
